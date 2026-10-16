@@ -2,154 +2,220 @@
 <html lang="es">
 
 <head>
-    <title>Currículum</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Currículum de Sara Monzó Fuentes, desarrolladora web junior, estudiante de 2º de Desarrollo de Aplicaciones Web.">
+    <title>Sara Monzó Fuentes CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
-    </style>
 </head>
 
 <body>
-    <a href="https://samonzfu.github.io/Portafolio/" class="boton-volver">⬅ Portafolio</a>
-    <section id="izquierda">
-        <img src="img/yo.png">
-        <article>
-            <h3>Contacto</h3>
-            <ul>
-                <li>sara.monzo.fuentes@gmail.com</li>
-                <li>📞 657 37 37 29</li>
-                <li>🔗<a href=https://www.linkedin.com/in/sara-monz%C3%B3-fuentes /> LinkedIn</a></li>
-                <li>🔗<a href=https://github.com/samonzfu> GitHub</a></li>
-                <li>📍 Burjassot, Valencia. (46100)</li>
-            </ul>
-        </article>
-        <hr>
-        <article>
-            <h3>Habilidades</h3>
-            <ul class="skills">
-                <li>
-                    HTML
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 88%;"></div>
-                    </div>
-                </li>
-                <li>
-                    CSS
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 88%;"></div>
-                    </div>
-                </li>
-                <li>
-                    JavaScript
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 70%;"></div>
-                    </div>
-                </li>
-                <li>
-                    PHP
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 55%;"></div>
-                    </div>
-                </li>
-                <li>
-                    Python
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 70%;"></div>
-                    </div>
-                </li>
-                <li>
-                    MySQL
-                    <div class="skill-bar">
-                        <div class="skill-level" style="width: 65%;"></div>
-                    </div>
-                </li>
-            </ul>
-            <hr>
-            <article>
-                <h3>Idiomas</h3>
-                <ul>
-                    <li>Castellano ....... Nativo</li>
-                    <li>Inglés .............. Medio</li>
-                    <li>Valenciano ....... Alto</li>
+    <div class="acciones">
+        <a href="https://samonzfu.github.io/Portafolio/" class="boton boton-volver">⬅ Portafolio</a>
+        <a href="cv-sara-monzo-fuentes.pdf" download="Sara Monzó Fuentes CV.pdf" class="boton boton-descargar">⬇ Descargar CV</a>
+    </div>
+
+    <main class="cv">
+
+        <!-- ============ COLUMNA IZQUIERDA ============ -->
+        <aside class="lateral">
+            <img class="foto" src="img/yo.png" alt="Foto de Sara Monzó Fuentes">
+
+            <section>
+                <h2>Contacto</h2>
+                <dl class="datos">
+                    <dt>Correo</dt>
+                    <dd><a href="https://mail.google.com/mail/?view=cm&fs=1&to=sara.monzo.fuentes@gmail.com"
+                        target="_blank" rel="noopener">sara.monzo.fuentes@gmail.com</a></dd>
+                    <dt>Teléfono</dt>
+                    <dd><a href="tel:+34657373729">657 37 37 29</a></dd>
+                    <dt>Ubicación</dt>
+                    <dd>Burjassot, Valencia (46100)</dd>
+                    <dt>Enlaces</dt>
+                    <dd>
+                        <a href="https://github.com/samonzfu">GitHub</a> | 
+                        <a href="https://www.linkedin.com/in/sara-monz%C3%B3-fuentes">LinkedIn</a> | 
+                        <a href="https://samonzfu.github.io/Portafolio/">Portfolio</a>
+                    </dd>
+                </dl>
+            </section>
+
+            <section>
+                <h2>Habilidades técnicas</h2>
+                <h3>Front-end</h3>
+                <ul class="chips">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
                 </ul>
-            </article>
-            <hr>
-            <article>
-                <h3>info. adicional</h3>
-                <ul>
-                    <li>- Familiarizada con GitHub</li>
-                    <li>- Incorporación inmediata</li>
-                    <li>- Disponibilidad horaria</li>
-                    <li>- Disponibilidad en presencial y remoto</li>
+                <h3>Back-end</h3>
+                <ul class="chips">
+                    <li>Node.js</li>
+                    <li>PHP</li>
+                    <li>Python</li>
                 </ul>
-            </article>
-    </section>
-    <section id="derecha">
-        <h1>Sara Monzó Fuentes</h1>
-        <h2>Estudiante de DAW</h2>
-        <h3>Sobre mí</h3>
-        <p>Estudiante de 1º de DAW con interés en el desarrollo web y ganas de aplicar los conocimientos adquiridos
-            durante el curso en un entorno profesional. Me gusta aprender haciendo, trabajar en equipo y afrontar retos
-            tecnológicos.</p>
-        <div id="experiencia">
-            <hr>
-            <h3>Experiencia Laboral</h3>
-            <article>
-                <img src="img/primark.png">
-                <div class="texto">
-                    <h4>Retail Assistant</h4>
-                    <h5>1 año y medio - Primark</h5>
-                    <p>Atención al cliente y apoyo en ventas. Manejo de caja y operaciones básicas. Organización,
-                        reposición y mantenimiento del visual de tienda siguiendo estándares de la marca.</p>
-                </div>
-            </article>
-            <article>
-                <img src="img/levis.jpg">
-                <div class="texto">
-                    <h4>Retail Assistant</h4>
-                    <h5>1 año - Levi's</h5>
-                    <p>Atención personalizada al cliente y apoyo en ventas. Gestión de caja y arqueo. Organización,
-                        reposición y mantenimiento de la imagen de tienda según estándares. Control de precios, gestión
-                        de rebajas y realización de pedidos.</p>
-                </div>
-            </article>
-            <article>
-                <img src="img/benetton.png">
-                <div class="texto">
-                    <h4>Retail Assistant</h4>
-                    <h5>2 meses - Benetton</h5>
-                    <p>Atención personalizada al cliente y apoyo en ventas. Gestión de caja y arqueo. Organización,
-                        reposición y mantenimiento de la imagen de tienda según estándares. Control de precios, gestión
-                        de rebajas y realización de pedidos.</p>
-                </div>
-            </article>
+                <h3>Bases de datos</h3>
+                <ul class="chips">
+                    <li>MySQL</li>
+                </ul>
+                <h3>Herramientas</h3>
+                <ul class="chips">
+                    <li>Git y GitHub</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Idiomas</h2>
+                <ul class="idiomas">
+                    <li><span>Castellano</span> <span>Nativo</span></li>
+                    <li><span>Valenciano</span> <span>Alto</span></li>
+                    <li><span>Inglés</span> <span>Medio</span></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Disponibilidad</h2>
+                <ul class="lista-simple">
+                    <li>Incorporación inmediata</li>
+                    <li>Disponibilidad horaria</li>
+                    <li>Presencial y remoto</li>
+                </ul>
+            </section>
+        </aside>
+
+        <!-- ============ COLUMNA DERECHA ============ -->
+        <div class="principal">
+            <header>
+                <h1>Sara Monzó Fuentes</h1>
+                <p class="titular">Desarrolladora web junior, 2º de DAW</p>
+            </header>
+
+            <section>
+                <h2>Sobre mí</h2>
+                <p>Estudiante de DAW con pasión por la creación de soluciones digitales eficientes. 
+                    Enfocada en el desarrollo web (tanto frontend como backend) y motivado por llevar proyectos desde la idea hasta el despliegue.
+                     Destaco por mi capacidad para aprender de forma autónoma, trabajar colaborativamente y adaptarme rápidamente a nuevas tecnologías
+                      en entornos profesionales.</p>
+            </section>
+
+            <section id="experiencia">
+                <h2>Experiencia en desarrollo</h2>
+
+                <article class="entrada destacada">
+                    <div class="logo logo-texto" aria-hidden="true">TT</div>
+                    <div class="texto">
+                        <div class="cabecera-entrada">
+                            <h3>Prácticas de desarrollo con Node.js</h3>
+                            <p class="periodo">30/03/2026 – 04/06/2026</p>
+                        </div>
+                        <p class="empresa">TuATeam</p>
+                        <p>Dos proyectos internos sin publicar:</p>
+
+                        <div class="proyecto">
+                            <h4>Scraper de datos de empresas</h4>
+                            <p>Recibe una provincia y un número de actividad, y devuelve un Excel con los competidores
+                                ordenados e información como quién es el CEO.</p>
+                            <ul class="tags">
+                                <li>Node.js</li>
+                                <li>Web scraping</li>
+                                <li>Excel</li>
+                            </ul>
+                        </div>
+
+                        <div class="proyecto">
+                            <h4>Bot de WhatsApp</h4>
+                            <p>Transcribe los audios entrantes y genera un resumen breve.</p>
+                            <ul class="tags">
+                                <li>Node.js</li>
+                                <li>Transcripción de audio</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section id="proyectos">
+                <h2>Proyectos</h2>
+
+                <article class="entrada">
+                    <div class="logo logo-texto logo-claro" aria-hidden="true">TFG</div>
+                    <div class="texto">
+                        <div class="cabecera-entrada">
+                            <h3>Gestor de comunidades de vecinos y fincas</h3>
+                            <p class="periodo">En curso</p>
+                        </div>
+                        <p class="empresa">Proyecto de fin de ciclo de DAW</p>
+                        <p>Diseño de una plataforma web instalable como PWA: usuarios con roles (administrador,
+                            presidente y vecino), reserva de zonas comunes, tablón de anuncios y votaciones, repositorio
+                            de documentos e incidencias que la IA clasifica por categoría y urgencia.</p>
+                        <ul class="tags">
+                            <li>Node.js</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li>MySQL</li>
+                            <li>JWT</li>
+                            <li>API de OpenAI</li>
+                        </ul>
+                    </div>
+                </article>
+                <p class="mas-proyectos">¿Quieres ver más proyectos? Entra en mi
+                    <a href="https://github.com/samonzfu">GitHub</a> o en mi
+                    <a href="https://samonzfu.github.io/Portafolio/">Portafolio</a>.
+                </p>
+            </section>
+
+            <section id="formacion">
+                <h2>Formación académica</h2>
+
+                <article class="entrada">
+                    <img class="logo" src="img/ceac.jpg" alt="Logotipo de CEAC">
+                    <div class="texto">
+                        <div class="cabecera-entrada">
+                            <h3>Grado Superior de Desarrollo de Aplicaciones Web</h3>
+                            <p class="periodo">09/2025 – Actualidad</p>
+                        </div>
+                        <p class="empresa">CEAC</p>
+                    </div>
+                </article>
+
+                <article class="entrada">
+                    <img class="logo" src="img/cipfp.png" alt="Logotipo del CIPFP Ciudad del Aprendiz">
+                    <div class="texto">
+                        <div class="cabecera-entrada">
+                            <h3>Grado Medio de Panadería, Pastelería y Repostería</h3>
+                            <p class="periodo">09/2017 – 06/2019</p>
+                        </div>
+                        <p class="empresa">CIPFP Ciudad del Aprendiz</p>
+                    </div>
+                </article>
+
+                <article class="entrada">
+                    <img class="logo" src="img/epla.jpg" alt="Logotipo de E.P.L.A.">
+                    <div class="texto">
+                        <div class="cabecera-entrada">
+                            <h3>Educación Secundaria Obligatoria</h3>
+                            <p class="periodo">09/2013 – 06/2017</p>
+                        </div>
+                        <p class="empresa">E.P.L.A.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="otra-experiencia">
+                <h2>Otra experiencia</h2>
+                <ul class="otras">
+                    <li><span><strong>Retail Assistant</strong>, Primark</span><span class="periodo">1 año y medio</span></li>
+                    <li><span><strong>Retail Assistant</strong>, Levi's</span><span class="periodo">1 año</span></li>
+                    <li><span><strong>Retail Assistant</strong>, Benetton</span><span class="periodo">2 meses</span></li>
+                </ul>
+                <p class="nota">Atención al cliente y apoyo en ventas, caja, reposición y mantenimiento de la imagen de
+                    tienda. En Levi's y Benetton, además, arqueo, control de precios, rebajas y pedidos.</p>
+            </section>
         </div>
-        <hr>
-        <div id="formacion">
-            <h3>Formación Académica</h3>
-            <article>
-                <img src="img/ceac.jpg">
-                <div class="texto">
-                    <h4>Grado Superior de Desarrollo de Aplicaciones Web</h4>
-                    <h5>09/25 - Actual / CEAC</h5>
-                </div>
-            </article>
-            <article>
-                <img src="img/cipfp.png">
-                <div class="texto">
-                    <h4>Grado Medio de Panadería, pastelería y repostería.</h4>
-                    <h5>09/17 - 06/19 / CIPFP Ciudad del Aprendiz</h5>
-                </div>
-            </article>
-            <article>
-                <img src="img/epla.jpg">
-                <div class="texto">
-                    <h4>Educación Secundaria Obligatoria</h4>
-                    <h5>09/13 - 06/17 / E.P.L.A</h5>
-                </div>
-            </article>
-        </div>
-    </section>
+    </main>
 </body>
 
 </html>
